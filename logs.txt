@@ -1,0 +1,255 @@
+
+# Logs for source west-store-mongo resource
+
+[2023-06-09T16:19:32Z] Creating thread debezium-mongodbconnector-resource-22921-651018-replicator-streaming-0[2023-06-09T16:19:32Z] Cluster created with settings {hosts=[west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}[2023-06-09T16:19:32Z] Adding discovered server west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017 to client view of cluster[2023-06-09T16:19:32Z] Cluster description not yet available. Waiting for 30000 ms before timing out[2023-06-09T16:19:32Z] Opened connection [connectionId{localValue:249647, serverValue:140898}] to west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:19:32Z] Monitor thread successfully connected to server with description ServerDescription{address=west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[6, 0, 6]}, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=70538555, setName='west-store-mongo', canonicalAddress=west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017, hosts=[west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017], passives=[], arbiters=[], primary='west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=2, lastWriteDate=Fri Jun 09 16:19:19 UTC 2023, lastUpdateTimeNanos=3533513383319334}[2023-06-09T16:19:32Z] Discovered cluster type of REPLICA_SET[2023-06-09T16:19:32Z] Setting max election id to 7fffffff0000000000000001 from replica set primary west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:19:32Z] Setting max set version to 2 from replica set primary west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:19:32Z] Discovered replica set primary west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:19:32Z] Cluster created with settings {hosts=[west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}[2023-06-09T16:19:32Z] Cluster description not yet available. Waiting for 30000 ms before timing out[2023-06-09T16:19:32Z] Opened connection [connectionId{localValue:249648, serverValue:140899}] to west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:19:32Z] Monitor thread successfully connected to server with description ServerDescription{address=west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[6, 0, 6]}, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=71521447, setName='west-store-mongo', canonicalAddress=west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017, hosts=[west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017], passives=[], arbiters=[], primary='west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=2, lastWriteDate=Fri Jun 09 16:19:19 UTC 2023, lastUpdateTimeNanos=3533513745124253}[2023-06-09T16:19:32Z] Reading oplog for 'west-store-mongo/west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017' primary west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017 starting at Timestamp{value=7242721716248510476, seconds=1686327559, inc=12}[2023-06-09T16:19:32Z] The last event processed was not transactional, resuming at the oplog event after 'Timestamp{value=7242721716248510476, seconds=1686327559, inc=12}'[2023-06-09T16:19:33Z] Opened connection [connectionId{localValue:249649, serverValue:140900}] to west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:19:55Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:20:25Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:20:29Z] WorkerSourceTask{id=connector-22600-0} Committing offsets[2023-06-09T16:20:29Z] WorkerSourceTask{id=connector-22600-0} flushing 0 outstanding messages for offset commit[2023-06-09T16:20:29Z] WorkerSourceTask{id=connector-22600-0} Finished commitOffsets successfully in 33 ms[2023-06-09T16:20:55Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:21:25Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:21:29Z] WorkerSourceTask{id=connector-22600-0} Committing offsets[2023-06-09T16:21:29Z] WorkerSourceTask{id=connector-22600-0} flushing 0 outstanding messages for offset commit[2023-06-09T16:21:55Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:22:25Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:22:29Z] WorkerSourceTask{id=connector-22600-0} Committing offsets[2023-06-09T16:22:29Z] WorkerSourceTask{id=connector-22600-0} flushing 0 outstanding messages for offset commit[2023-06-09T16:22:55Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:23:25Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:23:29Z] WorkerSourceTask{id=connector-22600-0} Committing offsets[2023-06-09T16:23:29Z] WorkerSourceTask{id=connector-22600-0} flushing 0 outstanding messages for offset commit[2023-06-09T16:23:30Z] WorkerSourceTask{id=connector-22600-0} Finished commitOffsets successfully in 23 ms[2023-06-09T16:23:55Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:24:25Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:24:30Z] WorkerSourceTask{id=connector-22600-0} Committing offsets[2023-06-09T16:24:30Z] WorkerSourceTask{id=connector-22600-0} flushing 0 outstanding messages for offset commit[2023-06-09T16:24:30Z] WorkerSourceTask{id=connector-22600-0} Finished commitOffsets successfully in 18 ms[2023-06-09T16:24:55Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:25:25Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:25:30Z] WorkerSourceTask{id=connector-22600-0} Committing offsets[2023-06-09T16:25:30Z] WorkerSourceTask{id=connector-22600-0} flushing 0 outstanding messages for offset commit[2023-06-09T16:25:30Z] WorkerSourceTask{id=connector-22600-0} Finished commitOffsets successfully in 125 ms[2023-06-09T16:25:55Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:26:25Z] Checking current members of replica set at west-store-mongo-75fd0060.mongo.ondigitalocean.com:27017[2023-06-09T16:26:30Z] WorkerSourceTask{id=connector-22600-0} Committing offsets[2023-06-09T16:26:30Z] WorkerSourceTask{id=connector-22600-0} flushing 0 outstanding messages for offset commit[2023-06-09T16:26:30Z] WorkerSourceTask{id=connector-22600-0} Finished commitOffsets successfully in 22 ms
+
+# Logs for destination mongo-atlas resource
+
+[2023-06-09T16:19:38Z] Creating connector connector-22601 of type com.mongodb.kafka.connect.MongoSinkConnector[2023-06-09T16:19:38Z] Instantiated connector connector-22601 with version 1.4.0-dirty of type class com.mongodb.kafka.connect.MongoSinkConnector[2023-06-09T16:19:38Z] Finished creating connector connector-22601[2023-06-09T16:19:39Z] Creating task connector-22601-0[2023-06-09T16:19:39Z] ConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = com.mongodb.kafka.connect.MongoSinkConnector
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = connector-22601
+	tasks.max = 1
+	transforms = [unwrap]
+	value.converter = null
+[2023-06-09T16:19:39Z] EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = com.mongodb.kafka.connect.MongoSinkConnector
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = connector-22601
+	tasks.max = 1
+	transforms = [unwrap]
+	transforms.unwrap.array.encoding = array
+	transforms.unwrap.flatten.struct = false
+	transforms.unwrap.flatten.struct.delimiter = _
+	transforms.unwrap.sanitize.field.names = false
+	transforms.unwrap.type = class io.debezium.connector.mongodb.transforms.ExtractNewDocumentState
+	value.converter = null
+[2023-06-09T16:19:39Z] TaskConfig values: 
+	task.class = class com.mongodb.kafka.connect.sink.MongoSinkTask
+[2023-06-09T16:19:39Z] Instantiated task connector-22601-0 with version 1.4.0-dirty of type com.mongodb.kafka.connect.sink.MongoSinkTask[2023-06-09T16:19:39Z] JsonConverterConfig values: 
+	converter.type = key
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = true
+[2023-06-09T16:19:39Z] Set up the key converter class org.apache.kafka.connect.json.JsonConverter for task connector-22601-0 using the worker config[2023-06-09T16:19:39Z] JsonConverterConfig values: 
+	converter.type = value
+	decimal.format = BASE64
+	schemas.cache.size = 1000
+	schemas.enable = true
+[2023-06-09T16:19:39Z] Set up the value converter class org.apache.kafka.connect.json.JsonConverter for task connector-22601-0 using the worker config[2023-06-09T16:19:39Z] Set up the header converter class org.apache.kafka.connect.storage.SimpleHeaderConverter for task connector-22601-0 using the worker config[2023-06-09T16:19:39Z] Initializing: org.apache.kafka.connect.runtime.TransformationChain{io.debezium.connector.mongodb.transforms.ExtractNewDocumentState}[2023-06-09T16:19:39Z] SinkConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = com.mongodb.kafka.connect.MongoSinkConnector
+	errors.deadletterqueue.context.headers.enable = false
+	errors.deadletterqueue.topic.name = 
+	errors.deadletterqueue.topic.replication.factor = 3
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = connector-22601
+	tasks.max = 1
+	topics = [resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b]
+	topics.regex = 
+	transforms = [unwrap]
+	value.converter = null
+[2023-06-09T16:19:39Z] EnrichedConnectorConfig values: 
+	config.action.reload = restart
+	connector.class = com.mongodb.kafka.connect.MongoSinkConnector
+	errors.deadletterqueue.context.headers.enable = false
+	errors.deadletterqueue.topic.name = 
+	errors.deadletterqueue.topic.replication.factor = 3
+	errors.log.enable = false
+	errors.log.include.messages = false
+	errors.retry.delay.max.ms = 60000
+	errors.retry.timeout = 0
+	errors.tolerance = none
+	header.converter = null
+	key.converter = null
+	name = connector-22601
+	tasks.max = 1
+	topics = [resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b]
+	topics.regex = 
+	transforms = [unwrap]
+	transforms.unwrap.array.encoding = array
+	transforms.unwrap.flatten.struct = false
+	transforms.unwrap.flatten.struct.delimiter = _
+	transforms.unwrap.sanitize.field.names = false
+	transforms.unwrap.type = class io.debezium.connector.mongodb.transforms.ExtractNewDocumentState
+	value.converter = null
+[2023-06-09T16:19:39Z] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [b-6.meroxa-msk-4df588e5-32.taybze.c6.kafka.us-east-1.amazonaws.com:9094, b-2.meroxa-msk-4df588e5-32.taybze.c6.kafka.us-east-1.amazonaws.com:9094, b-3.meroxa-msk-4df588e5-32.taybze.c6.kafka.us-east-1.amazonaws.com:9094]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = connector-consumer-connector-22601-0
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = connect-connector-22601
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+[2023-06-09T16:19:39Z] Kafka version: 2.5.0[2023-06-09T16:19:39Z] Kafka commitId: 66563e712b0b9f84[2023-06-09T16:19:39Z] Kafka startTimeMs: 1686327579966[2023-06-09T16:19:39Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Subscribed to topic(s): resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b[2023-06-09T16:19:39Z] Starting MongoDB sink task[2023-06-09T16:19:39Z] MongoSinkTopicConfig values: 
+	change.data.capture.handler = 
+	collection = medicine_from_west_store_js
+	database = pharmacies
+	delete.on.null.values = false
+	document.id.strategy = com.mongodb.kafka.connect.sink.processor.id.strategy.BsonOidStrategy
+	document.id.strategy.overwrite.existing = false
+	document.id.strategy.partial.key.projection.list = 
+	document.id.strategy.partial.key.projection.type = 
+	document.id.strategy.partial.value.projection.list = 
+	document.id.strategy.partial.value.projection.type = 
+	document.id.strategy.uuid.format = string
+	errors.log.enable = false
+	errors.tolerance = none
+	field.renamer.mapping = []
+	field.renamer.regexp = []
+	key.projection.list = 
+	key.projection.type = none
+	max.batch.size = 0
+	max.num.retries = 1
+	namespace.mapper = com.mongodb.kafka.connect.sink.namespace.mapping.DefaultNamespaceMapper
+	namespace.mapper.error.if.invalid = false
+	namespace.mapper.key.collection.field = 
+	namespace.mapper.key.database.field = 
+	namespace.mapper.value.collection.field = 
+	namespace.mapper.value.database.field = 
+	post.processor.chain = [com.mongodb.kafka.connect.sink.processor.DocumentIdAdder]
+	rate.limiting.every.n = 0
+	rate.limiting.timeout = 0
+	retries.defer.timeout = 5000
+	topic = resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b
+	value.projection.list = 
+	value.projection.type = none
+	writemodel.strategy = com.mongodb.kafka.connect.sink.writemodel.strategy.ReplaceOneDefaultStrategy
+[2023-06-09T16:19:39Z] WorkerSinkTask{id=connector-22601-0} Sink task finished initialization and start[2023-06-09T16:19:40Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Error while fetching metadata with correlation id 2 : {resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b=LEADER_NOT_AVAILABLE}[2023-06-09T16:19:40Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Cluster ID: NjCOcI61RVOPj8DvGjs5lg[2023-06-09T16:19:40Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Discovered group coordinator b-3.meroxa-msk-4df588e5-32.taybze.c6.kafka.us-east-1.amazonaws.com:9094 (id: 2147483644 rack: null)[2023-06-09T16:19:40Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] (Re-)joining group[2023-06-09T16:19:40Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group[2023-06-09T16:19:40Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] (Re-)joining group[2023-06-09T16:19:40Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Error while fetching metadata with correlation id 7 : {resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b=LEADER_NOT_AVAILABLE}[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Finished assignment for group at generation 1: {connector-consumer-connector-22601-0-446fc0a7-065b-497d-a818-1fb9c817eb63=Assignment(partitions=[resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-0, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-1, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-2, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-3, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-4, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-5, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-6, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-7])}[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Successfully joined group with generation 1[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Adding newly assigned partitions: resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-3, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-2, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-1, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-0, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-7, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-6, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-5, resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-4[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Found no committed offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-3[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Found no committed offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-2[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Found no committed offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-1[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Found no committed offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-0[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Found no committed offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-7[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Found no committed offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-6[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Found no committed offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-5[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Found no committed offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-4[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Resetting offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-3 to offset 0.[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Resetting offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-5 to offset 0.[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Resetting offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-2 to offset 0.[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Resetting offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-4 to offset 0.[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Resetting offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-1 to offset 0.[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Resetting offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-7 to offset 0.[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Resetting offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-0 to offset 0.[2023-06-09T16:19:43Z] [Consumer clientId=connector-consumer-connector-22601-0, groupId=connect-connector-22601] Resetting offset for partition resource-22921-651018.dispensedPills.medicine-ea9ad408-f209-4b0b-89ba-4ca8e352441b-6 to offset 0.
+
+# Logs for anonymize-d5507bfd function
+
+[2023-06-09T16:26:17Z]       type: 'struct'
+[2023-06-09T16:26:17Z]     }
+[2023-06-09T16:26:17Z]   },
+[2023-06-09T16:26:17Z]   timestamp: Long { low: 1686327572, high: 0, unsigned: false },
+[2023-06-09T16:26:17Z]   _rawValue: '{"payload":{"after":"{\\"_id\\": {\\"$oid\\": \\"64823ce80b2032798f658395\\"},\\"pillName\\": \\"Aspirin\\",\\"quantityDispensed\\": 100,\\"dateDispensed\\": {\\"$date\\": 1686256872661}}","filter":null,"op":"r","patch":null,"source":{"collection":"medicine","connector":"mongodb","db":"dispensedPills","h":null,"name":"resource-22921-651018","ord":12,"rs":"west-store-mongo","snapshot":"true","stxnid":null,"tord":null,"ts_ms":1686327559000,"version":"1.2.5.Final"},"transaction":null,"ts_ms":1686327571978},"schema":{"fields":[{"field":"after","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"patch","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"filter","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"source","fields":[{"field":"version","optional":false,"type":"string"},{"field":"connector","optional":false,"type":"string"},{"field":"name","optional":false,"type":"string"},{"field":"ts_ms","optional":false,"type":"int64"},{"default":"false","field":"snapshot","name":"io.debezium.data.Enum","optional":true,"parameters":{"allowed":"true,last,false"},"type":"string","version":1},{"field":"db","optional":false,"type":"string"},{"field":"rs","optional":false,"type":"string"},{"field":"collection","optional":false,"type":"string"},{"field":"ord","optional":false,"type":"int32"},{"field":"h","optional":true,"type":"int64"},{"field":"tord","optional":true,"type":"int64"},{"field":"stxnid","optional":true,"type":"string"}],"name":"io.debezium.connector.mongo.Source","optional":false,"type":"struct"},{"field":"op","optional":true,"type":"string"},{"field":"ts_ms","optional":true,"type":"int64"},{"field":"transaction","fields":[{"field":"id","optional":false,"type":"string"},{"field":"total_order","optional":false,"type":"int64"},{"field":"data_collection_order","optional":false,"type":"int64"}],"optional":true,"type":"struct"}],"name":"resource_22921_651018.dispensedPills.medicine.Envelope","optional":false,"type":"struct"}}'
+[2023-06-09T16:26:17Z] }
+[2023-06-09T16:26:22Z] Inside Anonymize record: Record {
+[2023-06-09T16:26:22Z]   key: '{"schema":{"type":"struct","fields":[{"type":"string","optional":false,"field":"id"}],"optional":false,"name":"resource_22921_651018.dispensedPills.medicine.Key"},"payload":{"id":"{ \\"$oid\\" : \\"64823ce80b2032798f658395\\"}"}}',
+[2023-06-09T16:26:22Z]   value: {
+[2023-06-09T16:26:22Z]     payload: {
+[2023-06-09T16:26:22Z]       after: '{"_id": {"$oid": "64823ce80b2032798f658395"},"pillName": "Aspirin","quantityDispensed": 100,"dateDispensed": {"$date": 1686256872661}}',
+[2023-06-09T16:26:22Z]       filter: null,
+[2023-06-09T16:26:22Z]       op: 'r',
+[2023-06-09T16:26:22Z]       patch: null,
+[2023-06-09T16:26:22Z]       source: [Object],
+[2023-06-09T16:26:22Z]       transaction: null,
+[2023-06-09T16:26:22Z]       ts_ms: 1686327571978
+[2023-06-09T16:26:22Z]     },
+[2023-06-09T16:26:22Z]     schema: {
+[2023-06-09T16:26:22Z]       fields: [Array],
+[2023-06-09T16:26:22Z]       name: 'resource_22921_651018.dispensedPills.medicine.Envelope',
+[2023-06-09T16:26:22Z]       optional: false,
+[2023-06-09T16:26:22Z]       type: 'struct'
+[2023-06-09T16:26:22Z]     }
+[2023-06-09T16:26:22Z]   },
+[2023-06-09T16:26:22Z]   timestamp: Long { low: 1686327572, high: 0, unsigned: false },
+[2023-06-09T16:26:22Z]   _rawValue: '{"payload":{"after":"{\\"_id\\": {\\"$oid\\": \\"64823ce80b2032798f658395\\"},\\"pillName\\": \\"Aspirin\\",\\"quantityDispensed\\": 100,\\"dateDispensed\\": {\\"$date\\": 1686256872661}}","filter":null,"op":"r","patch":null,"source":{"collection":"medicine","connector":"mongodb","db":"dispensedPills","h":null,"name":"resource-22921-651018","ord":12,"rs":"west-store-mongo","snapshot":"true","stxnid":null,"tord":null,"ts_ms":1686327559000,"version":"1.2.5.Final"},"transaction":null,"ts_ms":1686327571978},"schema":{"fields":[{"field":"after","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"patch","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"filter","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"source","fields":[{"field":"version","optional":false,"type":"string"},{"field":"connector","optional":false,"type":"string"},{"field":"name","optional":false,"type":"string"},{"field":"ts_ms","optional":false,"type":"int64"},{"default":"false","field":"snapshot","name":"io.debezium.data.Enum","optional":true,"parameters":{"allowed":"true,last,false"},"type":"string","version":1},{"field":"db","optional":false,"type":"string"},{"field":"rs","optional":false,"type":"string"},{"field":"collection","optional":false,"type":"string"},{"field":"ord","optional":false,"type":"int32"},{"field":"h","optional":true,"type":"int64"},{"field":"tord","optional":true,"type":"int64"},{"field":"stxnid","optional":true,"type":"string"}],"name":"io.debezium.connector.mongo.Source","optional":false,"type":"struct"},{"field":"op","optional":true,"type":"string"},{"field":"ts_ms","optional":true,"type":"int64"},{"field":"transaction","fields":[{"field":"id","optional":false,"type":"string"},{"field":"total_order","optional":false,"type":"int64"},{"field":"data_collection_order","optional":false,"type":"int64"}],"optional":true,"type":"struct"}],"name":"resource_22921_651018.dispensedPills.medicine.Envelope","optional":false,"type":"struct"}}'
+[2023-06-09T16:26:22Z] }
+[2023-06-09T16:26:27Z] Inside Anonymize record: Record {
+[2023-06-09T16:26:27Z]   key: '{"schema":{"type":"struct","fields":[{"type":"string","optional":false,"field":"id"}],"optional":false,"name":"resource_22921_651018.dispensedPills.medicine.Key"},"payload":{"id":"{ \\"$oid\\" : \\"64823ce80b2032798f658395\\"}"}}',
+[2023-06-09T16:26:27Z]   value: {
+[2023-06-09T16:26:27Z]     payload: {
+[2023-06-09T16:26:27Z]       after: '{"_id": {"$oid": "64823ce80b2032798f658395"},"pillName": "Aspirin","quantityDispensed": 100,"dateDispensed": {"$date": 1686256872661}}',
+[2023-06-09T16:26:27Z]       filter: null,
+[2023-06-09T16:26:27Z]       op: 'r',
+[2023-06-09T16:26:27Z]       patch: null,
+[2023-06-09T16:26:27Z]       source: [Object],
+[2023-06-09T16:26:27Z]       transaction: null,
+[2023-06-09T16:26:27Z]       ts_ms: 1686327571978
+[2023-06-09T16:26:27Z]     },
+[2023-06-09T16:26:27Z]     schema: {
+[2023-06-09T16:26:27Z]       fields: [Array],
+[2023-06-09T16:26:27Z]       name: 'resource_22921_651018.dispensedPills.medicine.Envelope',
+[2023-06-09T16:26:27Z]       optional: false,
+[2023-06-09T16:26:27Z]       type: 'struct'
+[2023-06-09T16:26:27Z]     }
+[2023-06-09T16:26:27Z]   },
+[2023-06-09T16:26:27Z]   timestamp: Long { low: 1686327572, high: 0, unsigned: false },
+[2023-06-09T16:26:27Z]   _rawValue: '{"payload":{"after":"{\\"_id\\": {\\"$oid\\": \\"64823ce80b2032798f658395\\"},\\"pillName\\": \\"Aspirin\\",\\"quantityDispensed\\": 100,\\"dateDispensed\\": {\\"$date\\": 1686256872661}}","filter":null,"op":"r","patch":null,"source":{"collection":"medicine","connector":"mongodb","db":"dispensedPills","h":null,"name":"resource-22921-651018","ord":12,"rs":"west-store-mongo","snapshot":"true","stxnid":null,"tord":null,"ts_ms":1686327559000,"version":"1.2.5.Final"},"transaction":null,"ts_ms":1686327571978},"schema":{"fields":[{"field":"after","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"patch","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"filter","name":"io.debezium.data.Json","optional":true,"type":"string","version":1},{"field":"source","fields":[{"field":"version","optional":false,"type":"string"},{"field":"connector","optional":false,"type":"string"},{"field":"name","optional":false,"type":"string"},{"field":"ts_ms","optional":false,"type":"int64"},{"default":"false","field":"snapshot","name":"io.debezium.data.Enum","optional":true,"parameters":{"allowed":"true,last,false"},"type":"string","version":1},{"field":"db","optional":false,"type":"string"},{"field":"rs","optional":false,"type":"string"},{"field":"collection","optional":false,"type":"string"},{"field":"ord","optional":false,"type":"int32"},{"field":"h","optional":true,"type":"int64"},{"field":"tord","optional":true,"type":"int64"},{"field":"stxnid","optional":true,"type":"string"}],"name":"io.debezium.connector.mongo.Source","optional":false,"type":"struct"},{"field":"op","optional":true,"type":"string"},{"field":"ts_ms","optional":true,"type":"int64"},{"field":"transaction","fields":[{"field":"id","optional":false,"type":"string"},{"field":"total_order","optional":false,"type":"int64"},{"field":"data_collection_order","optional":false,"type":"int64"}],"optional":true,"type":"struct"}],"name":"resource_22921_651018.dispensedPills.medicine.Envelope","optional":false,"type":"struct"}}'
+[2023-06-09T16:26:27Z] }
+

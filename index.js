@@ -58,7 +58,8 @@ exports.App = class App {
     // {"behavior.on.null.values": "ignore"}
     await destination.write(anonymized, "medicine_from_west_store_js", {
       "transforms": "unwrap",
-      "transforms.unwrap.type": "io.debezium.connector.mongodb.transforms.ExtractNewDocumentState"
+      "transforms.unwrap.type": "io.debezium.connector.mongodb.transforms.ExtractNewDocumentState",
+      "collection": "medicine_from_west_store_js".toLowerCase()
     });
   }
 };
