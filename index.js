@@ -57,9 +57,7 @@ exports.App = class App {
     // If additional connector configs are needed, provided another argument i.e.
     // {"behavior.on.null.values": "ignore"}
     await destination.write(anonymized, "medicine_from_west_store_js", {
-      "transforms": "unwrap",
-      "transforms.unwrap.type": "io.debezium.connector.mongodb.transforms.ExtractNewDocumentState",
-      "collection": "medicine_from_west_store_js".toLowerCase()
+      "collection": "medicine_from_west_store_js"
     });
   }
 };
